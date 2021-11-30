@@ -1,0 +1,101 @@
+id,Titulo,Autor,precio,idEditorial
+1,Poema de Gilgamesh,Anonimo,3255.74,5
+2,Libro de Job (de la Biblia),Anonimo,2099.46,1
+3,Las mil y una noches,Anonimo,430.15,3
+4,Saga de Njal,Anonimo,716.97,6
+5,Todo se desmorona,Chinua Achebe,3030.34,5
+6,Cuentos infantiles,Hans Christian Andersen,2521.37,2
+7,Divina comedia,Dante Alighieri,1142.25,5
+8,Orgullo y prejuicio,Jane Austen,3310.74,3
+9,Papa Goriot,Honore de Balzac,686.86,1
+10,Molloy,Samuel Beckett,3434.26,1
+11,Decameron,Giovanni Boccaccio,1043.64,2
+12,Ficciones,Jorge Luis Borges,2346.73,4
+13,Cumbres Borrascosas,Emily Bronte,1715.09,3
+14,El extranjero,Albert Camus,2261.53,5
+15,Poemas,Paul Celan,899.97,3
+16,Viaje al fin de la noche,Louis-Ferdinand Celine,3189.45,1
+17,Don Quijote de la Mancha,Miguel de Cervantes,3018.17,3
+18,Los cuentos de Canterbury,Geoffrey Chaucer,2823.75,5
+19,Relatos cortos,Anton Chejov,1023.42,2
+20,Nostromo,Joseph Conrad,3060.64,1
+21,Grandes Esperanzas,Charles Dickens,3313.95,2
+22,Jacques el fatalista,Denis Diderot,1775.28,5
+23,Berlin Alexanderplatz,Alfred Doblin,2156.45,6
+24,Crimen y castigo,Fiodor Dostoievski,3033.77,1
+25,El idiota,Fiodor Dostoievski,2424.96,3
+26,Los endemoniados,Fiodor Dostoievski,253.6,6
+27,Los hermanos Karamazov,Fiodor Dostoievski,1218.98,4
+28,Middlemarch,George Eliot,3439.82,1
+29,El hombre invisible,Ralph Ellison,1610.17,5
+30,Medea,Euripides,3149.87,5
+31,¡Absalom Absalom!,William Faulkner,2101.51,1
+32,El ruido y la furia,William Faulkner,1889.17,2
+33,Madame Bovary,Gustave Flaubert,1940.61,5
+34,La educacion sentimental,Gustave Flaubert,2145.16,5
+35,Romancero gitano,Federico Garcia Lorca,3299.35,5
+36,Cien años de soledad,Gabriel Garcia Marquez,641.14,2
+37,El amor en los tiempos del colera,Gabriel Garcia Marquez  ,2018.9,4
+38,Fausto,Johann Wolfgang von Goethe,2740.00,1
+39,Almas muertas,Nikolai Gogol,1370.39,5
+40,El tambor de hojalata,Gunter Grass  ,2194.61,3
+41,Gran Serton: Veredas,Joao Guimaraes Rosa,1298.9,5
+42,Hambre,Knut Hamsun  ,2728.95,4
+43,El viejo y el mar,Ernest Hemingway  ,2863.19,4
+44,Iliada,Homero,1006.25,1
+45,Odisea,Homero,672.56,1
+46,Casa de muñecas,Henrik Ibsen,2363.56,2
+47,Ulises,James Joyce,810.59,4
+48,Relatos cortos,Franz Kafka,714.81,2
+49,El proceso,Franz Kafka,1693.19,4
+50,El castillo,Franz Kafka,3324.59,2
+51,Shakuntala,Kalidasa,1672.88,1
+52,El sonido de la montaña,Yasunari Kawabata  ,3163.58,2
+53,Zorba el griego,Nikos Kazantzakis,3159.36,3
+54,Hijos y amantes,D. H. Lawrence,3121.46,5
+55,Gente independiente,Halldor Laxness  ,1541.38,6
+56,Poemas,Giacomo Leopardi,2031.85,1
+57,El cuaderno dorado,Doris Lessing  ,3485.73,4
+58,Pippi Calzaslargas,Astrid Lindgren,2379.93,4
+59,Diario de un loco,Lu Xun,1362.37,3
+60,Hijos de nuestro barrio,Naguib Mahfuz  ,2542.13,4
+61,Los Buddenbrook,Thomas Mann  ,3280.66,1
+62,La montaña magica,Thomas Mann  ,187.05,2
+63,Moby-Dick,Herman Melville,2388.96,3
+64,Ensayos,Michel de Montaigne,2566.83,3
+65,La historia,Elsa Morante,966.63,5
+66,Beloved,Toni Morrison  ,1873.14,4
+67,Genji Monogatari,Murasaki Shikibu,3226.00,6
+68,El hombre sin atributos,Robert Musil,2503.41,4
+69,Lolita,Vladimir Nabokov,786.43,4
+70,1984,George Orwell,3121.85,3
+71,Las metamorfosis,Ovidio,1285.18,1
+72,Libro del desasosiego,Fernando Pessoa,1884.79,3
+73,Cuentos,Edgar Allan Poe,1209.77,3
+74,En busca del tiempo perdido,Marcel Proust,3242.93,1
+75,Gargantua y Pantagruel,Francois Rabelais,3184.54,5
+76,Pedro Paramo,Juan Rulfo,1657.93,1
+77,Masnavi,Rumi,1698.14,5
+78,Hijos de la medianoche,Salman Rushdie,841.24,2
+79,Bostan,Saadi,128.31,2
+80,Tiempo de migrar al norte,Tayeb Salih,2423.1,6
+81,Ensayo sobre la ceguera,Jose Saramago  ,500.47,3
+82,Hamlet,William Shakespeare,1065.08,5
+83,El rey Lear,William Shakespeare,2458.87,4
+84,Otelo,William Shakespeare,2644.00,5
+85,Edipo rey,Sofocles,1630.25,1
+86,Rojo y negro,Stendhal,1805.17,1
+87,Caballero Tristram Shandy,Laurence Sterne,614.87,3
+88,La conciencia de Zeno,Italo Svevo,1788.15,2
+89,Los viajes de Gulliver,Jonathan Swift,2122.05,1
+90,Guerra y paz,Lev Tolstoi,564.09,2
+91,Ana Karenina,Lev Tolstoi,777.1,6
+92,La muerte de Ivan Ilich,Lev Tolstoi,2779.61,5
+93,Las aventuras de Huckleberry Finn,Mark Twain,3416.29,1
+94,Ramayana,Valmiki,1194.42,6
+95,Eneida,Virgilio,1651.86,3
+96,Mahabharata,Viasa,1256.48,2
+97,Hojas de hierba,Walt Whitman,895.7,4
+98,La señora Dalloway,Virginia Woolf,3144.76,1
+99,Al faro,Virginia Woolf,1385.23,6
+100,Memorias de Adriano,Marguerite Yourcenar,2495.12,5
