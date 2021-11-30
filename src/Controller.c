@@ -38,7 +38,7 @@ int Controller1_CargarLibrosModoTexto (LinkedList* listaLibros, int* flagCarga)
 	return estado;
 }
 
-int Controller1_CargarEditorialesModoTexto (LinkedList* listaEditoriales, int* flagCarga)
+int Controller2_CargarEditorialesModoTexto (LinkedList* listaEditoriales, int* flagCarga)
 {
 	int estado;
 	char nombreArchivo[51];
@@ -75,7 +75,7 @@ int Controller1_CargarEditorialesModoTexto (LinkedList* listaEditoriales, int* f
 	return estado;
 }
 
-int Controller2_ImprimirListadoLibros (LinkedList* listaLibros, LinkedList* listaEditoriales)
+int Controller4_ImprimirListadoLibros (LinkedList* listaLibros, LinkedList* listaEditoriales)
 {
 	int estado;
 	estado = -1;
@@ -124,7 +124,7 @@ int Controller2_ImprimirListadoLibros (LinkedList* listaLibros, LinkedList* list
 	return estado;
 }
 
-void Controller3_listadoFiltrado (LinkedList* listaLibros, LinkedList* listaEditoriales)
+void Controller6_listadoFiltrado (LinkedList* listaLibros, LinkedList* listaEditoriales)
 {
 	LinkedList* listaFiltrada = NULL;
 
@@ -134,12 +134,12 @@ void Controller3_listadoFiltrado (LinkedList* listaLibros, LinkedList* listaEdit
 	GuardarModoTexto(listaFiltrada, "filtrado.csv");
 
 }
-void Controller4_OrdenarPorAutor (LinkedList* listaLibros)
+void Controller3_OrdenarPorAutor (LinkedList* listaLibros)
 {
 	ll_sort(listaLibros, CompararNombreAutor, 1);
 }
 
-int Controller5_listaMapeada (LinkedList* listaLibros)
+int Controller7_listaMapeada (LinkedList* listaLibros)
 {
 	int estado = 0;
 
@@ -195,47 +195,47 @@ int GuardarModoTexto (LinkedList* lista, char* ruta)
 	return estado;
 }
 
-//void BorrarLibro (LinkedList* listalibros)
-//{
-//	eLibro* unlibro = NULL;
-//
-//	if(listalibros != NULL)
-//	{
-//		for(int i = 0; i< ll_len(listalibros); i++)
-//		{
-//			unlibro = ll_get(listalibros, i);
-//
-//			if (unlibro != NULL)
-//			{
-//				free(unlibro);
-//			}
-//		}
-//
-//		ll_deleteLinkedList(listalibros);
-//	}
-//
-//}
+void BorrarTodosLosLibrosYsuLista (LinkedList* listalibros)
+{
+	eLibro* unlibro = NULL;
 
-//void BorrarEditorial (LinkedList* listaEditoriales)
-//{
-//	eEditorial* unaEditorial = NULL;
-//
-//	if(listaEditoriales != NULL)
-//	{
-//		for(int i = 0; i< ll_len(listaEditoriales); i++)
-//		{
-//			unaEditorial = ll_get(listaEditoriales, i);
-//
-//			if (unaEditorial != NULL)
-//			{
-//				free(unaEditorial);
-//			}
-//		}
-//
-//		ll_deleteLinkedList(listaEditoriales);
-//	}
-//
-//}
+	if(listalibros != NULL)
+	{
+		for(int i = 0; i< ll_len(listalibros); i++)
+		{
+			unlibro = ll_get(listalibros, i);
+
+			if (unlibro != NULL)
+			{
+				BorrarLibro(unlibro);
+			}
+		}
+
+		ll_deleteLinkedList(listalibros);
+	}
+
+}
+
+void BorrarTodasLasEditorialYsuLista (LinkedList* listaEditoriales)
+{
+	eEditorial* unaEditorial = NULL;
+
+	if(listaEditoriales != NULL)
+	{
+		for(int i = 0; i< ll_len(listaEditoriales); i++)
+		{
+			unaEditorial = ll_get(listaEditoriales, i);
+
+			if (unaEditorial != NULL)
+			{
+				BorrarUnaEditorial(unaEditorial);
+			}
+		}
+
+		ll_deleteLinkedList(listaEditoriales);
+	}
+
+}
 
 
 

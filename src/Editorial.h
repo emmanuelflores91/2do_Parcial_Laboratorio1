@@ -70,7 +70,7 @@ int GetAllEditorial (eEditorial* editorial, int* idEditorial, char* nombre);
 /// @brief libera el espacio en memoria reservado para una editorial
 ///
 /// @param editorial
-void BorrarEditorial (eEditorial* editorial);
+void BorrarUnaEditorial (eEditorial* unaEditorial);
 
 
 

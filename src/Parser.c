@@ -74,7 +74,7 @@ int ParserEditoriales (FILE* pFile, LinkedList* listaEditoriales)
 			}
 			else
 			{
-				free(pEditorial);
+				BorrarUnaEditorial(pEditorial);
 			}
 		}
 	}

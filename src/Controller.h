@@ -17,25 +17,25 @@
 int Controller1_CargarLibrosModoTexto (LinkedList* listaLibros, int* flagCarga);
 
 
-int Controller1_CargarEditorialesModoTexto (LinkedList* listaEditoriales, int* flagCarga);
+int Controller2_CargarEditorialesModoTexto (LinkedList* listaEditoriales, int* flagCarga);
 
 /// @brief imprime los datos de todos los libros de la lista
 ///
 /// @param listaLibros
 /// @return -1 en caso de error, 0 en caso de éxito
-int Controller2_ImprimirListadoLibros (LinkedList* listaLibros, LinkedList* listaEditoriales);
+int Controller4_ImprimirListadoLibros (LinkedList* listaLibros, LinkedList* listaEditoriales);
 
-void Controller3_listadoFiltrado (LinkedList* listaLibros, LinkedList* listaEditoriales);
+void Controller6_listadoFiltrado (LinkedList* listaLibros, LinkedList* listaEditoriales);
 
-void Controller4_OrdenarPorAutor (LinkedList* listaLibros);
+void Controller3_OrdenarPorAutor (LinkedList* listaLibros);
 
-int Controller5_listaMapeada (LinkedList* listaLibros);
+int Controller7_listaMapeada (LinkedList* listaLibros);
 
 int GuardarModoTexto (LinkedList* lista, char* ruta);
 
-//void BorrarLibro (LinkedList* listalibros);
-//
-//void BorrarEditorial (LinkedList* listaEditoriales);
+void BorrarTodosLosLibrosYsuLista (LinkedList* listalibros);
+
+void BorrarTodasLasEditorialYsuLista (LinkedList* listaEditoriales);
 
 
 

@@ -118,4 +118,11 @@ int GetAllEditorial (eEditorial* editorial, int* idEditorial, char* nombre)
 	return estado;
 }
 
+void BorrarUnaEditorial (eEditorial* unaEditorial)
+{
+	if(unaEditorial != NULL)
+	{
+		free(unaEditorial);
+	}
+}
 

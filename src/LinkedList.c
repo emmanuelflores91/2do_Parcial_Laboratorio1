@@ -617,7 +617,6 @@ int ll_map (LinkedList* lista, int (*fn) (void*))
 			pElement = ll_get(lista, i);
 
 			fn(pElement);
-
 		}
 
 		estado = 0;
